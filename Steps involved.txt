@@ -1,0 +1,36 @@
+Steps to start with the new project in python
+
+1. Create a new enviornment (carprediction) -python 3.7
+
+conda create -n carprediction python=3.7
+
+2. Activate carprediction by typing - activate carprediction
+
+3. Copy the path where you have kept the data file or location where you want and launch the jupyter notebook from there 
+
+for example : cd C:\Users\Smita Gavandi\Documents\python_excelR\LENOVO\R Excel Sessions\Assignments\endtoend_projects\cardekho_price
+
+
+
+###How to make requirement.txt
+
+1.goto anaconda prompt
+2.Type activate carpredicition
+3.Goto path in which you have all folder files like cd C:\Users\Smita Gavandi\Documents\python_excelR\LENOVO\R Excel Sessions\Assignments\endtoend_projects\cardekho_price
+4.Search how to create requirement.txt in python in Google. 
+5.Type pip freeze > requirements.txt in the prompt
+6. you will get the requirement.txt with all the libraries
+
+Once it is done next step is work on app.py
+
+for that first install flask in the carprediction environment
+Then pip install jsonify
+pip install requests
+
+Then type python app.py
+
+You might get some errors regarding module not found like for example no module named 'sklearn' , so in this case we will need to pip install all these libraries
+
+
+
+
